@@ -1,5 +1,5 @@
 # pic2char
-Functions to replace the picture with character
+Functions to replace the picture/video with character
 
 ## Source image is:
 
