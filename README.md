@@ -1,18 +1,18 @@
-## pic2char
+# pic2char
 Functions to replace the picture with character
 
-# Source image is:
+## Source image is:
 
 ![pic](./baoerjie.jpg)
 
-# After the process, the image is:
+## After the process, the image is:
 
 ![pic](./output.jpg)
 
-# method
+## method
 Use cv2.Canny to detect edge, and paint charater '1' on the edge of a black image.
 
-## usage
+# usage
 1.replace the picture with character
 ```Shell
 python convertImage.py
@@ -21,5 +21,5 @@ python convertImage.py
 ```Shell
 python convertVideo.py
 ```
-## future work
+# future work
 The video produced is mute, I'll add the audio to the video when I'm free.
